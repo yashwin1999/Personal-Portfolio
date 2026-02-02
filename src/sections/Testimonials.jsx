@@ -7,6 +7,7 @@ const testimonials = [
       "An inpressive human being",
     author: "ABC",
     role: "",
+    avatar: "https://t4.ftcdn.net/jpg/09/43/48/93/360_F_943489384_zq3u5kkefFjPY3liE6t81KrX8W3lvxSz.jpg"
   },
 ];
 
