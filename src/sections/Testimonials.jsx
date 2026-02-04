@@ -7,7 +7,7 @@ const testimonials = [
       "Yashwin is one of those teammates who raises the technical bar for everyone around him. He has a sharp eye for clean architecture, writes reliable code, and approaches problems with clarity and efficiency. Collaborating with him always meant faster progress, better solutions, and a stronger final product.",
     author: "Ashwin Athappan Karuppan Chetty",
     role: "",
-    avatar: "https://t4.ftcdn.net/jpg/09/43/48/93/360_F_943489384_zq3u5kkefFjPY3liE6t81KrX8W3lvxSz.jpg"
+    avatar: "/projects/ashwin-pic.jpg",
   },
   {
     quote:
