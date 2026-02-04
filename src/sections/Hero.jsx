@@ -4,7 +4,6 @@ import {
   ChevronDown,
   Github,
   Linkedin,
-  Twitter,
   Download,
 } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
@@ -36,7 +35,7 @@ export const Hero = () => {
       {/* Bg */}
       <div className="absolute inset-0">
         <img
-          src="/hero-bg.jpg"
+          src="/projects/hero-bg.jpg"
           alt="Hero image"
           className="w-full h-full object-cover opacity-40"
         />
@@ -117,8 +116,8 @@ export const Hero = () => {
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
-                { icon: Github, href: "https://github.com/yashwin1999" },
                 { icon: Linkedin, href: "https://www.linkedin.com/in/yashwin-bangalore-subramani/" },
+                { icon: Github, href: "https://github.com/yashwin1999" },
               ].map((social, idx) => (
                 <a
                   key={idx}
@@ -142,7 +141,7 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/hero-bg.jpg"
+                  src="/projects/profile-pic.jpg"
                   alt="Yashwin Bangalore Subramani"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />

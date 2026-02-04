@@ -4,10 +4,17 @@ import { useState } from "react";
 const testimonials = [
   {
     quote:
-      "An inpressive human being",
-    author: "ABC",
+      "Yashwin is one of those teammates who raises the technical bar for everyone around him. He has a sharp eye for clean architecture, writes reliable code, and approaches problems with clarity and efficiency. Collaborating with him always meant faster progress, better solutions, and a stronger final product.",
+    author: "Ashwin Athappan Karuppan Chetty",
     role: "",
     avatar: "https://t4.ftcdn.net/jpg/09/43/48/93/360_F_943489384_zq3u5kkefFjPY3liE6t81KrX8W3lvxSz.jpg"
+  },
+  {
+    quote:
+      "Collaborating with Yashwin meant working with someone who truly understands how things fit together. His technical judgment, clean implementations, and willingness to step in when problems arose made a real difference in our project's success.",
+    author: "Anirudh Kashyap Ramesh",
+    role: "",
+    avatar: "/projects/anirudh-pic.jpg",
   },
 ];
 

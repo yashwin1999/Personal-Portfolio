@@ -1,8 +1,8 @@
-import { Github, Linkedin, Twitter, Heart } from "lucide-react";
+import { Github, Linkedin, Heart } from "lucide-react";
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com/yashwin1999", label: "GitHub" },
   { icon: Linkedin, href: "https://www.linkedin.com/in/yashwin-bangalore-subramani/", label: "LinkedIn" },
+  { icon: Github, href: "https://github.com/yashwin1999", label: "GitHub" },
 ];
 
 const footerLinks = [
@@ -22,7 +22,7 @@ export const Footer = () => {
           {/* Logo & Copyright */}
           <div className="text-center md:text-left">
             <a href="#" className="text-xl font-bold tracking-tight">
-              Y<span className="text-primary">BS</span>
+              BS<span className="text-primary">Y</span>
             </a>
             <p className="text-sm text-muted-foreground mt-2">
               Yashwin Bangalore Subramani.

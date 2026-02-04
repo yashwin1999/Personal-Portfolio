@@ -1,20 +1,30 @@
 const experiences = [
   {
-    period: "2025 — Present",
+    period: "2025 - Present",
     role: "Student Administrative Support",
     company: "UTA University Center Operations",
     description:
-      "",
-    technologies: [],
+      "Led day-to-day operations for a high-traffic university facility by managing a 20+ student team and supporting large-scale campus events. Automated shift reporting, equipment checkout, and inventory workflows using Power Automate and Excel VBA, driving major gains in efficiency and accuracy. Acted as a key liaison across event planning platforms, Teams, and SharePoint while proactively identifying and resolving operational issues with minimal supervision.",
+    technologies: ["Power Automate", "Python", "REST APIs", "Excel VBA", "Microsoft Teams", "SharePoint"],
     current: true,
   },
     {
-    period: "2022 — 2024",
+    period: "2022 - 2024",
     role: "Application Developer",
     company: "IBM",
     description:
       "Worked as an Application Developer with supervisory responsibilities, including monitoring team tasks, handling client calls, drafting knowledge base articles, and conducting knowledge transfer sessions. Mentored new team members to improve project efficiency.",
-    technologies: [],
+    technologies: ["Java",
+    "Spring Boot",
+    "Python",
+    "SQL",
+    "REST APIs",
+    "Git",
+    "CI/CD",
+    "Agile/Scrum",
+    "Azure",
+    "JavaScript",
+    "Bootstrap"],
     current: false,
   },
 ];
