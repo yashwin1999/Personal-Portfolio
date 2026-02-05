@@ -2,13 +2,36 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Project 1",
+    title: "Sorting Visualizer & Algorithm Comparator",
     description:
-      "Coming soon....",
-    image: "/hero-bg.jpg",
-    tags: ["React", "Typescript", "NodeJS"],
+      "An interactive sorting visualizer built with Next.js that brings classic algorithms to life. Compare performance, watch step-by-step executions, and gain intuitive insight into how different sorting techniques behave in real time.",
+    image: "/projects/sort-image.png",
+    tags: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Algorithms",
+      "Data Structures",
+      "Visualization",
+    ],
     link: "#",
-    github: "#",
+    github: "https://github.com/yashwin1999/Sorting_Visualizer_Next",
+  },
+  {
+    title: "Distributed Matrix Multiplication in Spark",
+    description:
+      "A high-performance distributed matrix multiplication engine built with Apache Spark and Scala. This project implements both coordinate and block matrix multiplication using Spark RDDs, demonstrating scalable parallel computation and optimization techniques to handle large matrix workloads efficiently.",
+    image: "/projects/mat-mul.png",
+    tags: [
+      "Apache Spark",
+      "Scala",
+      "Distributed Systems",
+      "Big Data",
+      "Parallel Computing",
+      "RDD",
+    ],
+    link: "",
+    github: "https://github.com/yashwin1999/Spark-Matrix-Multiplication",
   },
 ];
 
@@ -28,12 +51,11 @@ export const Projects = () => {
             Projects that
             <span className="font-serif italic font-normal text-white">
               {" "}
-              make an impact.
+              solve real problems.
             </span>
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            A selection of my recent work, from complex web applications to
-            innovative tools that solve real-world problems.
+           A curated set of recent projects, ranging from robust web applications to tools built for real-world impact.
           </p>
         </div>
 
@@ -107,11 +129,18 @@ export const Projects = () => {
 
         {/* View All CTA */}
         <div className="text-center mt-12 animate-fade-in animation-delay-500">
-          <AnimatedBorderButton>
-            View All Projects
-            <ArrowUpRight className="w-5 h-5" />
-          </AnimatedBorderButton>
+          <a
+            href="https://github.com/yashwin1999?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AnimatedBorderButton>
+              View All Projects
+              <ArrowUpRight className="w-5 h-5" />
+            </AnimatedBorderButton>
+          </a>
         </div>
+
       </div>
     </section>
   );
