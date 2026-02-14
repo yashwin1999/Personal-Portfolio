@@ -11,7 +11,7 @@ const highlights = [
     icon: Rocket,
     title: "Automation-Focused",
     description:
-      "NDriven to optimize workflows using scripting, APIs, and cloud tools—cutting manual effort and improving delivery speed.",
+      "Driven to optimize workflows using scripting, APIs, and cloud tools, cutting manual effort and improving delivery speed.",
   },
   {
     icon: Users,
