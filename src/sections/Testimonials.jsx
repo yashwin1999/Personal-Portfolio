@@ -2,18 +2,25 @@ import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 import { useState } from "react";
 
 const testimonials = [
+    {
+    quote:
+      "Yashwin's level of excellence and drive blew me away! He is extremely creative and brings a bold mix of vitality and professionalism with his work. With Yashwin on the job, you can expect competence, curiosity, and clear results on any project!",
+    author: "Hannah Joy Thornton",
+    role: "Special Events Coordinator at UTA",
+    avatar: "/testimonials/default-women.jpg",
+  },
   {
     quote:
       "Yashwin is one of those teammates who raises the technical bar for everyone around him. He has a sharp eye for clean architecture, writes reliable code, and approaches problems with clarity and efficiency. Collaborating with him always meant faster progress, better solutions, and a stronger final product.",
     author: "Ashwin Athappan Karuppan Chetty",
-    role: "",
+    role: "Student at University of Texas at UTA",
     avatar: "/testimonials/ashwin-pic.jpg",
   },
   {
     quote:
       "Collaborating with Yashwin meant working with someone who truly understands how things fit together. His technical judgment, clean implementations, and willingness to step in when problems arose made a real difference in our project's success.",
     author: "Anirudh Kashyap Ramesh",
-    role: "",
+    role: "Student at University of Texas at UTA",
     avatar: "/testimonials/anirudh-pic.jpg",
   },
 ];
